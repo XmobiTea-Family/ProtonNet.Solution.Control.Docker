@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schema.protonnetserver.com/1.0/ServerSettings/schema.json",
+  "TargetFramework": "net8.0",
+  "TargetRuntime": "linux-x64",
+  "Instances": [
+    {
+      "Name": "__dockerServer__",
+      "Enable": true,
+      "ServerType": "__dockerServerType__",
+      "BinPath": "__dockerServer__",
+      "AssemblyName": "__dockerServer__",
+      "StartupSettingsFilePath": "StartupSettings.json",
+      "Log4NetFilePath": "log4net.config",
+      "StartupType": "auto"
+    }
+  ]
+}
